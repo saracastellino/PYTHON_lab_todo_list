@@ -11,7 +11,7 @@ from app.models import User, Task # ADDED
 
 @app.route('/')
 def index():
-    user = {'username': 'Sandy'}
+    user = {'username': 'Sara'}
     tasks = [
     {
         'id': 1,
@@ -21,7 +21,7 @@ def index():
     },
     {
         'id': 2,
-        'title': u'Learn Java',
+        'title': u'Learn Python',
         'description': 'Learn an awesome new programming language',
         'done': True
     }

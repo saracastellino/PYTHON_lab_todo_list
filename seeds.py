@@ -5,7 +5,7 @@ AModelName.query.some_function()
 Task.query.delete()
 User.query.delete()
 
-user = User(username='Sandy')
+user = User(username='Sara')
 db.session.add(user)
 db.session.commit()
 
